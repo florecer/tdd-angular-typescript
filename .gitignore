@@ -1,6 +1,7 @@
 node_modules/
-node_modules/
 typings/
 .vscode/
 *.browserify.*
-*.js
+src/*.js
+test/*.js
+
