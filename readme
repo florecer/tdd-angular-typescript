@@ -1,0 +1,14 @@
+global dependencies:
+
+$ npm install typescript --global
+$ npm install typings --global
+
+dependencies:
+
+$ npm install
+$ typings install
+
+dev run:
+
+$ npm test
+http://localhost:3000/

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--<html ng-app="app" ng-strict-diiiiii>-->
+<html ng-app="minimalApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="//cdn.jsdelivr.net/angularjs/1.5.5/angular.min.js"></script>
+    <script src="//cdn.jsdelivr.net/angular.ui-router/1.0.0-alpha0/angular-ui-router.min.js"></script>
+    <script src="./src/app.js"></script>
+</head>
+<body>
+<!-- NAVIGATION -->
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" ui-sref="#">AngularUI Router</a>
+    </div>
+    <ul class="nav navbar-nav">
+        <li><a ui-sref="home">Home</a></li>
+        <li><a ui-sref="about">About</a></li>
+        <li><a ui-sref="people">People</a></li>
+    </ul>
+</nav>
+
+<!-- MAIN CONTENT -->
+<div class="container">
+
+    <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
+    <div ui-view></div>
+
+</div>
+</body>
+</html>
