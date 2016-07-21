@@ -11,10 +11,14 @@ module.exports = function () {
                 instrument: false
             },
             { 
+                pattern: 'node_modules/angular-ui-router/release/angular-ui-router.js', 
+                instrument: false
+            },
+            { 
                 pattern: 'node_modules/angular-mocks/angular-mocks.js', instrument: false 
             },
             { 
-                pattern: "node_modules/bardjs/dist/bard.min.js", 
+                pattern: "node_modules/bardjs/dist/bard.js", 
                 instrument: false 
             },
             { 
