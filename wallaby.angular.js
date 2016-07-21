@@ -31,15 +31,13 @@ module.exports = function () {
             },
             { 
                 // pattern: 'src/*.js',
-                pattern: 'src/*.ts', 
-                load: false 
+                pattern: 'src/*.ts'
             }
         ],
         tests: [
             {
                 // pattern: 'test/*.spec.js', 
-                pattern: 'test/*.spec.ts', 
-                load: false
+                pattern: 'test/*.spec.ts'
             }
         ]
     };
