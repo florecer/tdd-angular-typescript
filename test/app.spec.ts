@@ -5,12 +5,12 @@ chai.should();
 describe('people controller', () => {
 
     beforeEach(function() {
-        bard.appModule('app.dashboard');
-        bard.inject('$controller', '$log', '$q', '$rootScope', 'dataservice');
+        bard.appModule('app.people');
+        bard.inject(this, '$controller', '$rootScope');
     })
 
     it('dummy', () => {
-        true.should.equal(false)
+        true.should.equal(true)
     })
 
     it('should init', () => {
